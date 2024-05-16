@@ -283,25 +283,49 @@ function Service() {
               <div id="porfoliowarp" className="grid-gutter-md grid-col-3">
                 {/*  PORFOLIO ITEM */}
                 <div className="porfoliowarp__item" data-groups='["branding"]'>
-                  <a className="porfoliowarp__portolink glightbox" data-glightbox="type: image" href="src\assets\portfolio\shibarium.jpg">
+                  <a className="porfoliowarp__portolink glightbox" data-glightbox="type: image" href="src/assets/portfolio/shibarium.jpg">
                     <i className="fa-solid fa-circle-plus"></i>
-                    <div className="porfoliowarp__content" style={{ background: "url(src\assets\portfolio\shibarium.jpg) no-repeat center", backgroundPosition: "center", backgroundSize: "cover" }}></div>
+                    <div className="porfoliowarp__content" style={{ background: "url(src/assets/portfolio/shibarium.jpg) no-repeat center", backgroundPosition: "center", backgroundSize: "cover" }}></div>
                   </a>
                 </div>
                 {/* END PORTFOLIO ITEM */}
                 {/*  PORFOLIO ITEM */}
                 <div className="porfoliowarp__item" data-groups='["web"]'>
-                  <a className="porfoliowarp__portolink glightbox" data-glightbox="type: image" href="./asset/portfolio/2.jpg">
+                  <a className="porfoliowarp__portolink glightbox" data-glightbox="type: image" href="src/assets/portfolio/Odontologia.jpg">
                     <i className="fa-solid fa-circle-plus"></i>
-                    <div className="porfoliowarp__content" style={{ background: "url(./asset/portfolio/2.jpg) no-repeat center", backgroundPosition: "center", backgroundSize: "cover" }}></div>
+                    <div className="porfoliowarp__content" style={{ background: "url(src/assets/portfolio/Odontologia.jpg) no-repeat center", backgroundPosition: "center", backgroundSize: "cover" }}></div>
                   </a>
                 </div>
                 {/* END PORTFOLIO ITEM */}
                 {/*  PORFOLIO ITEM */}
                 <div className="porfoliowarp__item" data-groups='["branding"]'>
-                  <a className="porfoliowarp__portolink glightboxvideo" data-glightbox="type: image" href="./asset/portfolio/3.jpg">
+                  <a className="porfoliowarp__portolink glightboxvideo" data-glightbox="type: image" href="src/assets/portfolio/Web.jpg">
                     <i className="fa-solid fa-circle-plus"></i>
-                    <div className="porfoliowarp__content" style={{ background: "url(./asset/portfolio/3.jpg) no-repeat center", backgroundPosition: "center", backgroundSize: "cover" }}></div>
+                    <div className="porfoliowarp__content" style={{ background: "url(src/assets/portfolio/Web.jpg) no-repeat center", backgroundPosition: "center", backgroundSize: "cover" }}></div>
+                  </a>
+                </div>
+                {/* END PORTFOLIO ITEM */}
+                                {/*  PORFOLIO ITEM */}
+                                <div className="porfoliowarp__item" data-groups='["branding"]'>
+                  <a className="porfoliowarp__portolink glightbox" data-glightbox="type: image" href="src/assets/portfolio/slugs.jpg">
+                    <i className="fa-solid fa-circle-plus"></i>
+                    <div className="porfoliowarp__content" style={{ background: "url(src/assets/portfolio/slugs.jpg) no-repeat center", backgroundPosition: "center", backgroundSize: "cover" }}></div>
+                  </a>
+                </div>
+                {/* END PORTFOLIO ITEM */}
+                {/*  PORFOLIO ITEM */}
+                <div className="porfoliowarp__item" data-groups='["web"]'>
+                  <a className="porfoliowarp__portolink glightbox" data-glightbox="type: image" href="src/assets/portfolio/Jugos.png">
+                    <i className="fa-solid fa-circle-plus"></i>
+                    <div className="porfoliowarp__content" style={{ background: "url(src/assets/portfolio/Jugos.png) no-repeat center", backgroundPosition: "center", backgroundSize: "cover" }}></div>
+                  </a>
+                </div>
+                {/* END PORTFOLIO ITEM */}
+                {/*  PORFOLIO ITEM */}
+                <div className="porfoliowarp__item" data-groups='["branding"]'>
+                  <a className="porfoliowarp__portolink glightboxvideo" data-glightbox="type: image" href="src/assets/portfolio/Bigpoppa.png">
+                    <i className="fa-solid fa-circle-plus"></i>
+                    <div className="porfoliowarp__content" style={{ background: "url(src/assets/portfolio/Bigpoppa.png) no-repeat center", backgroundPosition: "center", backgroundSize: "cover" }}></div>
                   </a>
                 </div>
                 {/* END PORTFOLIO ITEM */}
@@ -320,7 +344,7 @@ function Footer() {
   const { t } = useTranslation(); // Hook useTranslation para acceder a las traducciones
 
   return (
-    <footer id="footerwrap">
+    <footer id="footerwrap" className="footer-padding-top">
       {/* footer */}
       <div className="container">
         <div className="row">
@@ -329,7 +353,7 @@ function Footer() {
               <div className="row">
                 <div className="col-lg-3">
                   <div className="footerwrap__about">
-                    <img src="asset\page\LOGO WEB-02.png" alt="logoweb" className="img-fluid" />
+                    <img src="src/assets/page/LOGO WEB-02.png" alt="logoweb" className="img-fluid" />
                     <p className="mt-4">{t('weAreATeam')}</p>
                   </div>
                 </div>
@@ -360,10 +384,10 @@ function Footer() {
                   <div className="footerwrap__social">
                     <h5>{t('followMe')}</h5>
                     <ul>
-                      <li><a href="#!"><i className="fa fa-facebook"></i></a></li>
-                      <li><a href="#!"><i className="fa fa-twitter"></i></a></li>
-                      <li><a href="#!"><i className="fa fa-instagram"></i></a></li>
-                      <li><a href="#!"><i className="fa fa-behance"></i></a></li>
+                      <li><a href="#!">Facebook</a></li>
+                      <li><a href="#!">Twitter</a></li>
+                      <li><a href="#!">Instagram</a></li>
+                      <li><a href="#!">Binance</a></li> {/* Nombre de Binance */}
                     </ul>
                   </div>
                 </div>
@@ -379,6 +403,7 @@ function Footer() {
     </footer>
   );
 }
+
 
 function App() {
   return (

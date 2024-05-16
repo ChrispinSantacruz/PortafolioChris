@@ -568,3 +568,8 @@
         font-size: 13px;
         letter-spacing: 1px;
     }
+
+    .footer-padding-top {
+        padding-top: 80px;
+      }
+      
