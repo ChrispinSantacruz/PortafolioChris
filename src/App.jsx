@@ -5,6 +5,7 @@ import "./javascript/vendor/glightbox.js";
 import "./javascript/vendor/keen-slider.js";
 import "./javascript/vendor/shufle.js";
 import "./javascript/main.js";
+import "./css/vendor/bootstrap/bootstrap.css"
 import './css/main.css';
 import './css/responsive.css';
 import { useTranslation } from 'react-i18next';
